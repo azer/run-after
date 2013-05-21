@@ -17,7 +17,7 @@ Looking for a daemon more commands like Cron? Try: [shell-jobs](http://github.co
 ## Install
 
 ```bash
-$ npm install run-after
+$ npm install -g run-after
 ```
 
 ## Programmatical API
