@@ -1,6 +1,7 @@
 ## run-after
 
-Run a command after given time based on [english-time](http://github.com/azer/english-time)
+Run a command after given time based on [english-time](http://github.com/azer/english-time).
+Looking for a daemon more commands like Cron? Try: [shell-jobs](http://github.com/azer/shell-jobs)
 
 Examples:
 
