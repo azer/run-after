@@ -5,12 +5,12 @@ Run a command after given time based on [english-time](http://github.com/azer/en
 Examples:
 
 ```bash
-$ run echo "hello world" after 5s
-$ run radio-paradise after an hour and 15 minutes
-$ run reboot after 2 weeks, 3 days and 7 hours
+$ run git push origin master after 5 seconds
+$ run radio-paradise after an hour and 15 mins
+$ run reboot after 2 weeks, 3d + 7h
 ```
 
-See [english-time](http://github.com/azer/english-time) for details.
+See [english-time](http://github.com/azer/english-time) for more examples and full reference of the supported time inputs.
 
 ## Install
 
