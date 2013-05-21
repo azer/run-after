@@ -1,7 +1,6 @@
 ## run-after
 
 Run a command after given time based on [english-time](http://github.com/azer/english-time).
-Looking for a daemon more commands like Cron? Try: [shell-jobs](http://github.com/azer/shell-jobs)
 
 Examples:
 
@@ -12,6 +11,8 @@ $ run reboot after 2 weeks and 3d 7h
 ```
 
 See [english-time](http://github.com/azer/english-time) for more examples and full reference of the supported time inputs.
+
+Looking for a daemon more commands like Cron? Try: [shell-jobs](http://github.com/azer/shell-jobs)
 
 ## Install
 
