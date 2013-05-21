@@ -23,7 +23,7 @@ $ npm install run-after
 ```js
 runAfter = require('run-after')
 
-runAfter('echo foo', '1w 3d 7h').stdout.pipe(process.stdout);
+runAfter('echo foo', '1w 3d 7h')
 ```
 
 ![](https://dl.dropboxusercontent.com/s/mdwr7wbgk9mqbjg/npmel_28.jpg)
