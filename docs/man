@@ -1,0 +1,8 @@
+    USAGE
+
+        run [command] after [english-time]
+
+    OPTIONS
+
+        -v    --version    Show version and exit
+        -h    --help       Show help and exit

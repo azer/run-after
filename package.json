@@ -1,0 +1,28 @@
+{
+  "name": "run-after",
+  "version": "0.0.0",
+  "description": "Run a command after given time",
+  "main": "index.js",
+  "keywords": [
+    "command",
+    "unix",
+    "time",
+    "schedule",
+    "job"
+  ],
+  "bin": {
+    "run": "./bin/run"
+  },
+  "repository": {
+    "url": "git@github.com:azer/run-after.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "after-time": "0.0.0",
+    "optimist": "~0.5.0",
+    "show-version": "0.0.0",
+    "show-help": "0.0.0"
+  }
+}

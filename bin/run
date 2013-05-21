@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var opt   = require('optimist'),
+    argv  = opt
+      .options('after', { alias: 'a' })
+      .options('version', { alias: 'v' })
+      .options('help', { alias: 'h' })
+      .argv;
+
+if(argv.version) require('show-version');
+if(argv.help || argv._.length == 0) require('show-help');
+
+var run  = require('../'),
+    args = process.argv.slice(2),
+    ind  = args.indexOf('after'),
+    cmd  = args.slice(0, ind),
+    time = args.slice(ind + 1).join(' ');
+
+run(cmd, time);
