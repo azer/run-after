@@ -6,8 +6,8 @@ Examples:
 
 ```bash
 $ run git push origin master after 5 seconds
-$ run radio-paradise after an hour and 15 mins
-$ run reboot after 2 weeks, 3d + 7h
+$ run play http://www.bwaaamp.net/airhorn.mp3 after 2 mins and 15 secs
+$ run reboot after 2 weeks and 3d 7h
 ```
 
 See [english-time](http://github.com/azer/english-time) for more examples and full reference of the supported time inputs.
