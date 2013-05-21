@@ -1,6 +1,6 @@
 {
   "name": "run-after",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run a command after given time",
   "main": "index.js",
   "keywords": [
